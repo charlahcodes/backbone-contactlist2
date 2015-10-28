@@ -9,5 +9,3 @@ var router = new Router(appElement);
 router.start();
 
 window.router = router;
-
-console.log('Hello, World');

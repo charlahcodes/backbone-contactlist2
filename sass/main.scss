@@ -1,7 +1,106 @@
 @import "bourbon";
-@import "neat";
 @import "font-awesome";
 
 body {
   background: #e2ebf3;
+}
+
+.container {
+  width: 30%;
+  background-color: white;
+  margin: 10px;
+
+  .title {
+    background-color: #7FBE2C;
+    color: white;
+    padding: 10px;
+  }
+
+  .addNewPeep {
+    padding: 10px;
+    border-bottom: 1px solid #EBEBEB;
+  }
+
+  .contacts {
+    background-color: white;
+    font-size: 14px;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+
+    li {
+      padding: 10px 5px;
+      border-bottom: 1px solid #EBEBEB;
+      cursor: pointer;
+    }
+  }
+}
+
+.personContainer {
+  width: 30%;
+  overflow: hidden;
+  margin: 10px;
+
+  .personTitle {
+    background-color: #A6D171;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+
+    a {
+      color: black;
+    }
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+
+    li {
+      padding: 10px 5px;
+      border-bottom: 1px solid #EBEBEB;
+      cursor: pointer;
+    }
+  }
+}
+
+.formContainer {
+  width: 30%;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+
+  .formTitle {
+    background-color: #7FBE2C;
+    color: white;
+    padding: 10px;
+  }
+
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    background-color: white;
+
+    input {
+      width: 94%;
+      padding: 10px;
+      margin-bottom: 2px;
+      margin-left: 2px;
+      border-bottom: 1px solid #EBEBEB;
+      border-left: 0;
+      border-right: 0;
+      border-top: 0;
+    }
+  }
+
+  button {
+    margin: 10px;
+  }
 }

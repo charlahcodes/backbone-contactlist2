@@ -2,7 +2,11 @@ function contactTemplate(data) {
   
   return `
     <div class="personContainer">
-      <div class="personTitle"><a href="index.html"><i class="fa fa-arrow-left"></i><a></div>
+      <div class="personTitle">
+        <button class="back-button" data-to="">
+          <i class="fa fa-arrow-left"></i>
+        </button>
+      </div>
       <ul>
         <li><i class="fa fa-user"></i>  ${data.name}</li>
         <li><i class="fa fa-envelope"></i> ${data.email}</li>
